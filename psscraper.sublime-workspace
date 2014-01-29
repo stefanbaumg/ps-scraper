@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"des",
+				"description"
+			]
 		]
 	},
 	"buffers":
@@ -11,8 +15,16 @@
 			"file": "PSCourses.html",
 			"settings":
 			{
-				"buffer_size": 2326184,
+				"buffer_size": 2769797,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2489,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -135,7 +147,7 @@
 	],
 	"find":
 	{
-		"height": 56.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -173,7 +185,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -182,20 +194,50 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2326184,
+						"buffer_size": 2769797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3910,
+								3910
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 77.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								550,
+								550
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -211,7 +253,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 56.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -247,7 +289,7 @@
 	"project": "psscraper.sublime-project",
 	"replace":
 	{
-		"height": 104.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
