@@ -49,7 +49,7 @@ download(url, function(data) {
 
             var duration = (hours * 60) + minutes;
 
-            var rating = $(e).find("td.rating span").attr("title").substring(0, 3);
+            var rating = parseFloat($(e).find("td.rating span").attr("title").substring(0, 3));
 
             var released = new Date($(e).find("td.releaseDate").text());
 
